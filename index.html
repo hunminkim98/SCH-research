@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenCap vs FootMR - Joint Angles</title>
+<style>
+  :root { --paper:#fff; --bg:#f3f1ec; --ink:#101010; --muted:#66615a; --hair:#dedad2; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin:0; background:linear-gradient(180deg,#fff 0%,var(--bg) 100%); color:var(--ink); font-family:"DejaVu Sans",Arial,Helvetica,sans-serif; }
+  main { width:min(100%,1120px); margin:0 auto; padding:44px 24px 72px; }
+  .cover { min-height:42vh; display:flex; flex-direction:column; justify-content:end; padding:24px 0 38px; border-bottom:1px solid var(--hair); margin-bottom:34px; }
+  h1 { margin:0; font-size:clamp(42px,7vw,86px); line-height:.92; letter-spacing:-.065em; max-width:880px; }
+  .figure-block { margin:0 0 52px; padding:18px; background:var(--paper); border:1px solid var(--hair); border-radius:22px; box-shadow:0 28px 70px rgba(30,24,18,.08); }
+  .figure-block img { display:block; width:100%; height:auto; border-radius:12px; background:#fff; }
+  .section-kicker { margin:70px 0 18px; padding-top:22px; border-top:1px solid var(--hair); color:var(--muted); text-transform:uppercase; letter-spacing:.16em; font-size:11px; }
+  .trial { margin-bottom:34px; }
+  footer { margin-top:64px; padding-top:18px; border-top:1px solid var(--hair); color:var(--muted); font-size:12px; }
+  @media (max-width:760px) { main{padding:28px 14px 52px;} .figure-block{padding:10px; border-radius:16px; margin-bottom:28px;} }
+  @media print { body{background:#fff;} .cover{min-height:auto;} .figure-block{box-shadow:none; break-inside:avoid;} }
+</style>
+</head>
+<body>
+<main>
+  <section class="cover">
+    <h1>OpenCap vs FootMR</h1>
+  </section>
+
+  <figure class="figure-block">
+    <img src="plots/summary_rmse_heatmap_sagittal.png" alt="OpenCap vs FootMR joint angle RMSE heatmap">
+  </figure>
+
+  <figure class="figure-block">
+    <img src="plots/summary_corr_heatmap_sagittal.png" alt="OpenCap vs FootMR correlation heatmap">
+  </figure>
+
+  <div class="section-kicker">Trials</div>
+    <figure class="figure-block trial" id="S18_CurvWalkClock_1">
+      <img src="plots/S18_CurvWalkClock_1_sagittal_overlay.png" alt="S18_CurvWalkClock_1 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkClock_2">
+      <img src="plots/S18_CurvWalkClock_2_sagittal_overlay.png" alt="S18_CurvWalkClock_2 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkClock_3">
+      <img src="plots/S18_CurvWalkClock_3_sagittal_overlay.png" alt="S18_CurvWalkClock_3 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkClock_4">
+      <img src="plots/S18_CurvWalkClock_4_sagittal_overlay.png" alt="S18_CurvWalkClock_4 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkClock_5">
+      <img src="plots/S18_CurvWalkClock_5_sagittal_overlay.png" alt="S18_CurvWalkClock_5 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkCounter_1">
+      <img src="plots/S18_CurvWalkCounter_1_sagittal_overlay.png" alt="S18_CurvWalkCounter_1 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkCounter_2">
+      <img src="plots/S18_CurvWalkCounter_2_sagittal_overlay.png" alt="S18_CurvWalkCounter_2 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkCounter_3">
+      <img src="plots/S18_CurvWalkCounter_3_sagittal_overlay.png" alt="S18_CurvWalkCounter_3 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkCounter_4">
+      <img src="plots/S18_CurvWalkCounter_4_sagittal_overlay.png" alt="S18_CurvWalkCounter_4 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_CurvWalkCounter_5">
+      <img src="plots/S18_CurvWalkCounter_5_sagittal_overlay.png" alt="S18_CurvWalkCounter_5 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_Walk_1">
+      <img src="plots/S18_Walk_1_sagittal_overlay.png" alt="S18_Walk_1 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_Walk_2">
+      <img src="plots/S18_Walk_2_sagittal_overlay.png" alt="S18_Walk_2 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_Walk_3">
+      <img src="plots/S18_Walk_3_sagittal_overlay.png" alt="S18_Walk_3 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_Walk_4">
+      <img src="plots/S18_Walk_4_sagittal_overlay.png" alt="S18_Walk_4 sagittal joint overlay" loading="lazy">
+    </figure>
+    <figure class="figure-block trial" id="S18_Walk_5">
+      <img src="plots/S18_Walk_5_sagittal_overlay.png" alt="S18_Walk_5 sagittal joint overlay" loading="lazy">
+    </figure>
+
+  <footer>Hip flexion, knee flexion, and ankle flexion only. Hip adduction/rotation, subtalar, pelvis/lumbar, arms, and MTP are excluded.</footer>
+</main>
+</body>
+</html>
