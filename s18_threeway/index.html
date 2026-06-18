@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Marker-based vs OpenCap vs FootMR - fixed OpenCap-FootMR sync</title>
+<style>
+:root{--paper:#fff;--bg:#f3f1ec;--ink:#101010;--muted:#66615a;--hair:#dedad2}*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);color:var(--ink);font-family:DejaVu Sans,Arial,Helvetica,sans-serif}main{width:min(100%,1120px);margin:0 auto;padding:44px 24px 72px}.cover{min-height:34vh;display:flex;flex-direction:column;justify-content:end;padding:24px 0 38px;border-bottom:1px solid var(--hair);margin-bottom:34px}h1{margin:0;text-align:center;font-size:clamp(36px,5.5vw,72px);line-height:.96;letter-spacing:-.055em}.subtitle{text-align:center;color:var(--muted);margin-top:16px;font-size:14px}.section-kicker{margin:64px 0 18px;padding-top:22px;border-top:1px solid var(--hair);color:var(--muted);text-transform:uppercase;letter-spacing:.16em;font-size:11px;text-align:center}.figure-block{margin:0 0 44px;padding:18px;background:var(--paper);border:1px solid var(--hair);border-radius:22px;box-shadow:0 28px 70px rgba(30,24,18,.08)}.figure-block img{display:block;width:100%;height:auto;border-radius:12px;background:#fff}@media(max-width:760px){main{padding:28px 14px 52px}.figure-block{padding:10px;border-radius:16px;margin-bottom:28px}}@media print{body{background:#fff}.cover{min-height:auto}.figure-block{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<main>
+<section class='cover'><h1>Marker-based vs OpenCap vs FootMR</h1><div class='subtitle'>OpenCap-FootMR sync fixed; Marker-based aligned by earliest strong global candidate</div></section>
+<div class='section-kicker'>Joint angle summary</div>
+<figure class='figure-block'><img src='plots/fixed_ocfm_joint_rmse_heatmap.png' alt='Joint angle RMSE heatmap' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/fixed_ocfm_joint_corr_heatmap.png' alt='Joint angle correlation heatmap' loading='lazy'></figure>
+<div class='section-kicker'>Joint angle overlays</div>
+<figure class='figure-block'><img src='plots/S18_CurvWalkClock_1_fixed_ocfm_joint_overlay.png' alt='S18_CurvWalkClock_1 joint overlay' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/S18_CurvWalkCounter_1_fixed_ocfm_joint_overlay.png' alt='S18_CurvWalkCounter_1 joint overlay' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/S18_Walk_1_fixed_ocfm_joint_overlay.png' alt='S18_Walk_1 joint overlay' loading='lazy'></figure>
+<div class='section-kicker'>COM summary</div>
+<figure class='figure-block'><img src='plots/fixed_ocfm_com_position_rmse_heatmap.png' alt='COM position RMSE heatmap' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/fixed_ocfm_com_position_corr_heatmap.png' alt='COM position correlation heatmap' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/fixed_ocfm_com_velocity_rmse_heatmap.png' alt='COM velocity RMSE heatmap' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/fixed_ocfm_com_velocity_corr_heatmap.png' alt='COM velocity correlation heatmap' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/fixed_ocfm_com_acceleration_rmse_heatmap.png' alt='COM acceleration RMSE heatmap' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/fixed_ocfm_com_acceleration_corr_heatmap.png' alt='COM acceleration correlation heatmap' loading='lazy'></figure>
+<div class='section-kicker'>COM overlays</div>
+<figure class='figure-block'><img src='plots/S18_CurvWalkClock_1_fixed_ocfm_com_overlay.png' alt='S18_CurvWalkClock_1 COM overlay' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/S18_CurvWalkCounter_1_fixed_ocfm_com_overlay.png' alt='S18_CurvWalkCounter_1 COM overlay' loading='lazy'></figure>
+<figure class='figure-block'><img src='plots/S18_Walk_1_fixed_ocfm_com_overlay.png' alt='S18_Walk_1 COM overlay' loading='lazy'></figure>
+</main>
+</body>
+</html>

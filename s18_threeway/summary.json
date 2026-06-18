@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "subject_id": "S18",
+  "output_dir": "/mnt/c/users/gnsal/onedrive/desktop/projects/sideprojects/footmr-baseline-5b/outputs/s18_166cm_opensim/comparisons/gt_opencap_footmr_s18/threeway_marker_based_opencap_footmr_fixed_ocfm_sync_earliest_strong_gt",
+  "report_html": "/mnt/c/users/gnsal/onedrive/desktop/projects/sideprojects/footmr-baseline-5b/outputs/s18_166cm_opensim/comparisons/gt_opencap_footmr_s18/threeway_marker_based_opencap_footmr_fixed_ocfm_sync_earliest_strong_gt/visual_report_marker_based_opencap_footmr_fixed_ocfm_earliest_strong_gt.html",
+  "common_trials": 3,
+  "trials": [
+    "S18_CurvWalkClock_1",
+    "S18_CurvWalkCounter_1",
+    "S18_Walk_1"
+  ],
+  "reference_time_axis": "OpenCap",
+  "fixed_sync_source": "/mnt/c/users/gnsal/onedrive/desktop/projects/sideprojects/footmr-baseline-5b/outputs/s18_166cm_opensim/comparisons/gt_opencap_footmr_s18/opencap_sync_summary.csv",
+  "time_mapping": "OpenCap time=t; FootMR time=t+fixed opencap_sync_summary.delta_s; Marker-based time=t+selected marker_to_opencap_delta_s",
+  "gt_sync_method": "Earliest candidate among global Marker-based-to-OpenCap signed velocity-correlation candidates whose score is at least 97.5% of the best score; FootMR not used to choose GT shift",
+  "sample_fps": 100.0,
+  "joint_metric_rows": 54,
+  "com_metric_rows": 81,
+  "mean_joint_rmse_deg__FootMR_vs_MarkerBased": 11.672258654033024,
+  "mean_joint_corr__FootMR_vs_MarkerBased": 0.8846485377798516,
+  "mean_joint_rmse_deg__OpenCap_vs_MarkerBased": 9.214636457086536,
+  "mean_joint_corr__OpenCap_vs_MarkerBased": 0.9367050238061929,
+  "mean_joint_rmse_deg__FootMR_vs_OpenCap": 6.687542977737461,
+  "mean_joint_corr__FootMR_vs_OpenCap": 0.914302169628739,
+  "mean_com_position_rmse_m__FootMR_vs_MarkerBased": 0.03611486833312966,
+  "mean_com_position_corr__FootMR_vs_MarkerBased": 0.8332470345030324,
+  "mean_com_position_rmse_m__OpenCap_vs_MarkerBased": 0.025752927705816393,
+  "mean_com_position_corr__OpenCap_vs_MarkerBased": 0.8748047093110394,
+  "mean_com_position_rmse_m__FootMR_vs_OpenCap": 0.035359513584046556,
+  "mean_com_position_corr__FootMR_vs_OpenCap": 0.7312531222622302
+}
