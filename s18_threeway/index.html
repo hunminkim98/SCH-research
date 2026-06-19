@@ -7,10 +7,36 @@
 <style>
 :root{--paper:#fff;--bg:#f3f1ec;--ink:#101010;--muted:#66615a;--hair:#dedad2}*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);color:var(--ink);font-family:DejaVu Sans,Arial,Helvetica,sans-serif}main{width:min(100%,1120px);margin:0 auto;padding:44px 24px 72px}.cover{min-height:34vh;display:flex;flex-direction:column;justify-content:end;padding:24px 0 38px;border-bottom:1px solid var(--hair);margin-bottom:34px}h1{margin:0;text-align:center;font-size:clamp(36px,5.5vw,72px);line-height:.96;letter-spacing:-.055em}.subtitle{text-align:center;color:var(--muted);margin-top:16px;font-size:14px}.section-kicker{margin:64px 0 18px;padding-top:22px;border-top:1px solid var(--hair);color:var(--muted);text-transform:uppercase;letter-spacing:.16em;font-size:11px;text-align:center}.figure-block{margin:0 0 44px;padding:18px;background:var(--paper);border:1px solid var(--hair);border-radius:22px;box-shadow:0 28px 70px rgba(30,24,18,.08)}.figure-block img{display:block;width:100%;height:auto;border-radius:12px;background:#fff}@media(max-width:760px){main{padding:28px 14px 52px}.figure-block{padding:10px;border-radius:16px;margin-bottom:28px}}@media print{body{background:#fff}.cover{min-height:auto}.figure-block{box-shadow:none;break-inside:avoid}}
 </style>
+<!-- time-range-style:start -->
+<style>
+.time-card{margin:0 0 52px}.section-kicker.compact{margin:0 0 18px;padding-top:0;border-top:0}.table-wrap{overflow-x:auto;background:var(--paper);border:1px solid var(--hair);border-radius:22px;box-shadow:0 28px 70px rgba(30,24,18,.08)}.time-table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.35}.time-table th{padding:15px 18px;text-align:left;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.14em;border-bottom:1px solid var(--hair);white-space:nowrap}.time-table td{padding:13px 18px;border-bottom:1px solid #ece8df;vertical-align:middle}.time-table tbody tr:last-child td{border-bottom:0}.time-table .trial{font-weight:700;color:var(--ink);white-space:nowrap}.time-table .num{font-variant-numeric:tabular-nums;white-space:nowrap}.method{display:inline-flex;align-items:center;gap:7px;white-space:nowrap}.method:before{content:'';width:18px;height:2px;border-radius:999px;background:currentColor}.method-markerbased{color:#111}.method-opencap{color:#D55E00}.method-footmr{color:#0072B2}@media(max-width:760px){.time-table{font-size:12px}.time-table th,.time-table td{padding:11px 12px}.table-wrap{border-radius:16px}}
+</style>
+<!-- time-range-style:end -->
 </head>
 <body>
 <main>
 <section class='cover'><h1>Marker-based vs OpenCap vs FootMR</h1></section>
+<!-- time-range-table:start -->
+<section class='time-card'>
+  <div class='section-kicker compact'>Source .mot time ranges</div>
+  <div class='table-wrap'>
+    <table class='time-table' aria-label='Used source MOT time ranges'>
+      <thead><tr><th>Trial</th><th>Method</th><th>Used time range (s)</th><th>Duration (s)</th></tr></thead>
+      <tbody>
+        <tr><td class='trial'>S18_CurvWalkClock_1</td><td><span class='method method-markerbased'>Marker-based</span></td><td class='num'>0.0000–1.5200</td><td class='num'>1.52</td></tr>
+        <tr><td class='trial'></td><td><span class='method method-opencap'>OpenCap</span></td><td class='num'>2.2967–3.8167</td><td class='num'>1.52</td></tr>
+        <tr><td class='trial'></td><td><span class='method method-footmr'>FootMR</span></td><td class='num'>2.8501–4.3701</td><td class='num'>1.52</td></tr>
+        <tr><td class='trial'>S18_CurvWalkCounter_1</td><td><span class='method method-markerbased'>Marker-based</span></td><td class='num'>0.0000–1.4200</td><td class='num'>1.42</td></tr>
+        <tr><td class='trial'></td><td><span class='method method-opencap'>OpenCap</span></td><td class='num'>2.8300–4.2500</td><td class='num'>1.42</td></tr>
+        <tr><td class='trial'></td><td><span class='method method-footmr'>FootMR</span></td><td class='num'>2.7978–4.2178</td><td class='num'>1.42</td></tr>
+        <tr><td class='trial'>S18_Walk_1</td><td><span class='method method-markerbased'>Marker-based</span></td><td class='num'>0.0000–2.0500</td><td class='num'>2.05</td></tr>
+        <tr><td class='trial'></td><td><span class='method method-opencap'>OpenCap</span></td><td class='num'>2.2233–4.2733</td><td class='num'>2.05</td></tr>
+        <tr><td class='trial'></td><td><span class='method method-footmr'>FootMR</span></td><td class='num'>2.8057–4.8557</td><td class='num'>2.05</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<!-- time-range-table:end -->
 <div class='section-kicker'>Joint angle summary</div>
 <figure class='figure-block'><img src='plots/fixed_ocfm_joint_rmse_heatmap.png' alt='Joint angle RMSE heatmap' loading='lazy'></figure>
 <figure class='figure-block'><img src='plots/fixed_ocfm_joint_corr_heatmap.png' alt='Joint angle correlation heatmap' loading='lazy'></figure>
