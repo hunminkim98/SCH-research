@@ -1,0 +1,420 @@
+{
+  "report": "/mnt/c/Users/gnsal/OneDrive/Desktop/Projects/SideProjects/footmr-baseline-5b/outputs/s18_166cm_opensim/comparisons/s18_threeway_filtered_trc6hz/filter_before_after_comparison.html",
+  "plots": "/mnt/c/Users/gnsal/OneDrive/Desktop/Projects/SideProjects/footmr-baseline-5b/outputs/s18_166cm_opensim/comparisons/s18_threeway_filtered_trc6hz/before_after_plots",
+  "gt": "Marker-based",
+  "before": "/mnt/c/Users/gnsal/OneDrive/Desktop/Projects/SideProjects/footmr-baseline-5b/outputs/s18_166cm_opensim/comparisons/gt_opencap_footmr_s18/threeway_marker_based_opencap_footmr_fixed_ocfm_sync_earliest_strong_gt",
+  "after": "/mnt/c/Users/gnsal/OneDrive/Desktop/Projects/SideProjects/footmr-baseline-5b/outputs/s18_166cm_opensim/comparisons/s18_threeway_filtered_trc6hz",
+  "filter": {
+    "type": "Butterworth low-pass",
+    "order": 4,
+    "cutoff_hz": 6.0,
+    "zero_phase": true
+  },
+  "summary_rows": [
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "joint_angle",
+      "variable": "hip_flexion_r",
+      "unit": "deg",
+      "before_rmse": 12.474043671000233,
+      "after_rmse": 12.42598691891229,
+      "delta_rmse_after_minus_before": -0.04805675208794291
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "joint_angle",
+      "variable": "knee_angle_r",
+      "unit": "deg",
+      "before_rmse": 13.808689000566963,
+      "after_rmse": 13.76043498996034,
+      "delta_rmse_after_minus_before": -0.048254010606623154
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "joint_angle",
+      "variable": "ankle_angle_r",
+      "unit": "deg",
+      "before_rmse": 7.838041461121109,
+      "after_rmse": 7.854318958945848,
+      "delta_rmse_after_minus_before": 0.016277497824739307
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "joint_angle",
+      "variable": "hip_flexion_l",
+      "unit": "deg",
+      "before_rmse": 17.027594859886257,
+      "after_rmse": 17.019094063609966,
+      "delta_rmse_after_minus_before": -0.008500796276290856
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "joint_angle",
+      "variable": "knee_angle_l",
+      "unit": "deg",
+      "before_rmse": 7.718311580078482,
+      "after_rmse": 7.7015380139348615,
+      "delta_rmse_after_minus_before": -0.016773566143620577
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "joint_angle",
+      "variable": "ankle_angle_l",
+      "unit": "deg",
+      "before_rmse": 18.729142227266646,
+      "after_rmse": 18.73532155559222,
+      "delta_rmse_after_minus_before": 0.006179328325572442
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_position",
+      "variable": "progression",
+      "unit": "m",
+      "before_rmse": 0.008783484219589606,
+      "after_rmse": 0.00871883910544859,
+      "delta_rmse_after_minus_before": -6.464511414101641e-05
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_position",
+      "variable": "vertical",
+      "unit": "m",
+      "before_rmse": 0.009934919069003609,
+      "after_rmse": 0.0098279059205171,
+      "delta_rmse_after_minus_before": -0.0001070131484865091
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_position",
+      "variable": "lateral",
+      "unit": "m",
+      "before_rmse": 0.01190887270743547,
+      "after_rmse": 0.012058023746451289,
+      "delta_rmse_after_minus_before": 0.0001491510390158185
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_velocity",
+      "variable": "progression",
+      "unit": "m/s",
+      "before_rmse": 0.1435317970853766,
+      "after_rmse": 0.12776427693248849,
+      "delta_rmse_after_minus_before": -0.015767520152888126
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_velocity",
+      "variable": "vertical",
+      "unit": "m/s",
+      "before_rmse": 0.1367768366363774,
+      "after_rmse": 0.13399095333605351,
+      "delta_rmse_after_minus_before": -0.0027858833003238936
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_velocity",
+      "variable": "lateral",
+      "unit": "m/s",
+      "before_rmse": 0.09180104397767966,
+      "after_rmse": 0.07647782138248764,
+      "delta_rmse_after_minus_before": -0.015323222595192018
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_acceleration",
+      "variable": "progression",
+      "unit": "m/s\u00b2",
+      "before_rmse": 2.8192991346947065,
+      "after_rmse": 2.0580477277502682,
+      "delta_rmse_after_minus_before": -0.7612514069444383
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_acceleration",
+      "variable": "vertical",
+      "unit": "m/s\u00b2",
+      "before_rmse": 2.913583267771572,
+      "after_rmse": 2.7592713619969547,
+      "delta_rmse_after_minus_before": -0.1543119057746174
+    },
+    {
+      "trial": "S18_CurvWalkClock_1",
+      "domain": "com_acceleration",
+      "variable": "lateral",
+      "unit": "m/s\u00b2",
+      "before_rmse": 1.930156732231847,
+      "after_rmse": 1.3113036529636297,
+      "delta_rmse_after_minus_before": -0.6188530792682172
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "joint_angle",
+      "variable": "hip_flexion_r",
+      "unit": "deg",
+      "before_rmse": 13.64624587882436,
+      "after_rmse": 13.677471657568162,
+      "delta_rmse_after_minus_before": 0.031225778743802834
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "joint_angle",
+      "variable": "knee_angle_r",
+      "unit": "deg",
+      "before_rmse": 8.23314277536965,
+      "after_rmse": 8.224941487456153,
+      "delta_rmse_after_minus_before": -0.008201287913497168
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "joint_angle",
+      "variable": "ankle_angle_r",
+      "unit": "deg",
+      "before_rmse": 10.251319336872742,
+      "after_rmse": 10.237709960771198,
+      "delta_rmse_after_minus_before": -0.013609376101543447
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "joint_angle",
+      "variable": "hip_flexion_l",
+      "unit": "deg",
+      "before_rmse": 14.677828812847633,
+      "after_rmse": 14.696785042869967,
+      "delta_rmse_after_minus_before": 0.018956230022334708
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "joint_angle",
+      "variable": "knee_angle_l",
+      "unit": "deg",
+      "before_rmse": 7.69203673954922,
+      "after_rmse": 7.637781495103579,
+      "delta_rmse_after_minus_before": -0.054255244445641004
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "joint_angle",
+      "variable": "ankle_angle_l",
+      "unit": "deg",
+      "before_rmse": 10.947184363444837,
+      "after_rmse": 10.953161648409905,
+      "delta_rmse_after_minus_before": 0.005977284965068108
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_position",
+      "variable": "progression",
+      "unit": "m",
+      "before_rmse": 0.018101361912476896,
+      "after_rmse": 0.01790523852249567,
+      "delta_rmse_after_minus_before": -0.0001961233899812273
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_position",
+      "variable": "vertical",
+      "unit": "m",
+      "before_rmse": 0.013491188598809796,
+      "after_rmse": 0.013626851083658215,
+      "delta_rmse_after_minus_before": 0.0001356624848484183
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_position",
+      "variable": "lateral",
+      "unit": "m",
+      "before_rmse": 0.012386467244588941,
+      "after_rmse": 0.01184086176788569,
+      "delta_rmse_after_minus_before": -0.0005456054767032509
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_velocity",
+      "variable": "progression",
+      "unit": "m/s",
+      "before_rmse": 0.1356237068005806,
+      "after_rmse": 0.11921168097711543,
+      "delta_rmse_after_minus_before": -0.01641202582346518
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_velocity",
+      "variable": "vertical",
+      "unit": "m/s",
+      "before_rmse": 0.14612312145499126,
+      "after_rmse": 0.1427741213888428,
+      "delta_rmse_after_minus_before": -0.0033490000661484665
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_velocity",
+      "variable": "lateral",
+      "unit": "m/s",
+      "before_rmse": 0.07953865239442719,
+      "after_rmse": 0.05743286189082,
+      "delta_rmse_after_minus_before": -0.022105790503607184
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_acceleration",
+      "variable": "progression",
+      "unit": "m/s\u00b2",
+      "before_rmse": 2.546368525456219,
+      "after_rmse": 1.783704930955706,
+      "delta_rmse_after_minus_before": -0.7626635945005131
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_acceleration",
+      "variable": "vertical",
+      "unit": "m/s\u00b2",
+      "before_rmse": 3.4488581857890703,
+      "after_rmse": 3.2349757171488798,
+      "delta_rmse_after_minus_before": -0.21388246864019056
+    },
+    {
+      "trial": "S18_CurvWalkCounter_1",
+      "domain": "com_acceleration",
+      "variable": "lateral",
+      "unit": "m/s\u00b2",
+      "before_rmse": 1.8602744340684387,
+      "after_rmse": 0.906458567769639,
+      "delta_rmse_after_minus_before": -0.9538158662987998
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "joint_angle",
+      "variable": "hip_flexion_r",
+      "unit": "deg",
+      "before_rmse": 14.433887771933332,
+      "after_rmse": 14.39278620999791,
+      "delta_rmse_after_minus_before": -0.041101561935422026
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "joint_angle",
+      "variable": "knee_angle_r",
+      "unit": "deg",
+      "before_rmse": 7.803028401471038,
+      "after_rmse": 7.832196138145642,
+      "delta_rmse_after_minus_before": 0.02916773667460415
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "joint_angle",
+      "variable": "ankle_angle_r",
+      "unit": "deg",
+      "before_rmse": 6.995501246333121,
+      "after_rmse": 6.955130346444417,
+      "delta_rmse_after_minus_before": -0.04037089988870424
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "joint_angle",
+      "variable": "hip_flexion_l",
+      "unit": "deg",
+      "before_rmse": 16.293733969555802,
+      "after_rmse": 16.25341840831997,
+      "delta_rmse_after_minus_before": -0.040315561235832575
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "joint_angle",
+      "variable": "knee_angle_l",
+      "unit": "deg",
+      "before_rmse": 7.700249660062629,
+      "after_rmse": 7.681554975732608,
+      "delta_rmse_after_minus_before": -0.018694684330021083
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "joint_angle",
+      "variable": "ankle_angle_l",
+      "unit": "deg",
+      "before_rmse": 13.830674016410407,
+      "after_rmse": 13.85152334762611,
+      "delta_rmse_after_minus_before": 0.020849331215702094
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_position",
+      "variable": "progression",
+      "unit": "m",
+      "before_rmse": 0.2239834367412347,
+      "after_rmse": 0.22384005217465477,
+      "delta_rmse_after_minus_before": -0.00014338456657991827
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_position",
+      "variable": "vertical",
+      "unit": "m",
+      "before_rmse": 0.014842151838611482,
+      "after_rmse": 0.014533232435346693,
+      "delta_rmse_after_minus_before": -0.00030891940326478913
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_position",
+      "variable": "lateral",
+      "unit": "m",
+      "before_rmse": 0.01160193266641631,
+      "after_rmse": 0.011625726864603315,
+      "delta_rmse_after_minus_before": 2.3794198187005594e-05
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_velocity",
+      "variable": "progression",
+      "unit": "m/s",
+      "before_rmse": 0.23733660217241598,
+      "after_rmse": 0.21771727983399292,
+      "delta_rmse_after_minus_before": -0.019619322338423062
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_velocity",
+      "variable": "vertical",
+      "unit": "m/s",
+      "before_rmse": 0.12201598269313248,
+      "after_rmse": 0.1221536384293006,
+      "delta_rmse_after_minus_before": 0.00013765573616812687
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_velocity",
+      "variable": "lateral",
+      "unit": "m/s",
+      "before_rmse": 0.10177258092560337,
+      "after_rmse": 0.08905105049594247,
+      "delta_rmse_after_minus_before": -0.012721530429660899
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_acceleration",
+      "variable": "progression",
+      "unit": "m/s\u00b2",
+      "before_rmse": 3.372011721284948,
+      "after_rmse": 1.8994560001103062,
+      "delta_rmse_after_minus_before": -1.4725557211746416
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_acceleration",
+      "variable": "vertical",
+      "unit": "m/s\u00b2",
+      "before_rmse": 2.3543630210079725,
+      "after_rmse": 2.3308465050792204,
+      "delta_rmse_after_minus_before": -0.023516515928752035
+    },
+    {
+      "trial": "S18_Walk_1",
+      "domain": "com_acceleration",
+      "variable": "lateral",
+      "unit": "m/s\u00b2",
+      "before_rmse": 1.817471133033225,
+      "after_rmse": 1.1408265232934642,
+      "delta_rmse_after_minus_before": -0.6766446097397607
+    }
+  ]
+}
